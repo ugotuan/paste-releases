@@ -6,15 +6,15 @@
   <p><strong>Lưu, tìm và dán lại mọi thứ bạn đã sao chép — nhanh, đẹp và riêng tư.</strong></p>
 
   <p>
-    <a href="https://github.com/ugotuan/paste-releases/releases/download/v1.1.1/Paste-1.1.1-arm64.dmg">
-      <img src="https://img.shields.io/badge/Download-Paste_1.1.1-8B5CF6?style=for-the-badge&logo=apple&logoColor=white" alt="Download Paste 1.1.1">
+    <a href="https://github.com/ugotuan/paste-releases/releases/download/v1.2.0/Paste-1.2.0-arm64.dmg">
+      <img src="https://img.shields.io/badge/Download-Paste_1.2.0-8B5CF6?style=for-the-badge&logo=apple&logoColor=white" alt="Download Paste 1.2.0">
     </a>
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/macOS-14%2B-111827?style=flat-square&logo=apple" alt="macOS 14+">
     <img src="https://img.shields.io/badge/Apple_Silicon-arm64-111827?style=flat-square" alt="Apple Silicon">
-    <img src="https://img.shields.io/badge/Version-1.1.1-7C3AED?style=flat-square" alt="Version 1.1.1">
+    <img src="https://img.shields.io/badge/Version-1.2.0-7C3AED?style=flat-square" alt="Version 1.2.0">
     <img src="https://img.shields.io/badge/Data-Local_first-059669?style=flat-square" alt="Local first">
   </p>
 
@@ -47,6 +47,7 @@ trong vài giây. Toàn bộ lịch sử được mã hóa và lưu trên máy c
 |---|---|
 | **📋 Lịch sử clipboard trực quan** | Lưu văn bản, liên kết, ảnh, màu sắc, code, rich text và đường dẫn tệp dưới dạng thẻ dễ xem. |
 | **⚡ Quick Picker toàn hệ thống** | Mở Paste từ bất kỳ ứng dụng nào bằng phím tắt tùy chỉnh; tìm, chọn và dán mà không rời công việc đang làm. |
+| **🖼️ Preview ảnh tối ưu** | Xem ảnh trong cửa sổ lớn, zoom, cuộn và sao chép lại; ảnh dài luôn nằm gọn trong thẻ. |
 | **🔎 Tìm kiếm tức thì** | Tìm theo nội dung, ứng dụng nguồn, loại dữ liệu hoặc pinboard; kết quả được lọc ngay khi nhập. |
 | **🧠 Tự động phân loại** | Nhận biết liên kết, mã màu, source code, ảnh, tệp và nội dung thông thường để hiển thị phù hợp. |
 | **✅ Chọn và xóa theo nhóm** | Giữ `⌘` để chọn nhiều thẻ hoặc nhấn `⌘A` để chọn tất cả kết quả đang hiển thị, sau đó xóa một lần có xác nhận. |
@@ -60,7 +61,7 @@ trong vài giây. Toàn bộ lịch sử được mã hóa và lưu trên máy c
 
 ## Bắt đầu nhanh
 
-1. Tải [**Paste 1.1.1 cho Apple Silicon**](https://github.com/ugotuan/paste-releases/releases/download/v1.1.1/Paste-1.1.1-arm64.dmg).
+1. Tải [**Paste 1.2.0 cho Apple Silicon**](https://github.com/ugotuan/paste-releases/releases/download/v1.2.0/Paste-1.2.0-arm64.dmg).
 2. Mở file `.dmg`.
 3. Kéo **Paste.app** vào thư mục **Applications**.
 4. Mở Paste và chọn **Open** nếu macOS hỏi xác nhận.
@@ -80,7 +81,14 @@ thích và pinboard.
 ### Mở Quick Picker
 
 Nhấn `⌘⇧V` ở bất kỳ đâu, gõ để tìm, dùng phím mũi tên để di chuyển rồi nhấn
-`Return` để dán. Bạn có thể đổi tổ hợp này tại **Cài đặt → Chung → Phím tắt**.
+`Return` để dán. Quick Picker vẫn hiển thị trên các ứng dụng đang fullscreen.
+Bạn có thể đổi tổ hợp này tại **Cài đặt → Chung → Phím tắt**.
+
+### Xem ảnh lớn
+
+Bấm icon phóng to trên thẻ ảnh hoặc chọn **Xem ảnh lớn** trong menu chuột phải
+để mở preview ở giữa màn hình. Preview hỗ trợ zoom, cuộn và sao chép lại ảnh.
+Nhấp đúp vào thẻ ảnh vẫn dán và đóng Quick Picker như các loại nội dung khác.
 
 ### Chọn và xóa nhiều mục
 
@@ -176,14 +184,15 @@ mới.
 
 ## 📦 Phiên bản mới nhất
 
-### Paste 1.1.1
+### Paste 1.2.0
 
-- Thêm **Chọn tất cả** trong thư viện và Quick Picker.
-- Hỗ trợ `⌘A` theo kết quả đang hiển thị.
-- Xóa nhiều mục bằng một lần xác nhận.
+- Preview ảnh trong cửa sổ lớn, hỗ trợ zoom, cuộn và sao chép lại.
+- Ảnh dài luôn nằm gọn trong thẻ và được decode tối ưu ngoài main thread.
+- Quick Picker hoạt động ổn định trên fullscreen Space.
+- Nhấn icon hoặc menu chuột phải để preview; nhấp đúp vẫn dán bình thường.
 
-[Xem ghi chú phát hành](https://github.com/ugotuan/paste-releases/releases/tag/v1.1.1)
-· [Tải DMG](https://github.com/ugotuan/paste-releases/releases/download/v1.1.1/Paste-1.1.1-arm64.dmg)
+[Xem ghi chú phát hành](https://github.com/ugotuan/paste-releases/releases/tag/v1.2.0)
+· [Tải DMG](https://github.com/ugotuan/paste-releases/releases/download/v1.2.0/Paste-1.2.0-arm64.dmg)
 
 ---
 
