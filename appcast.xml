@@ -19,7 +19,7 @@
 
 Đây là bản dành cho máy Mac Apple Silicon.
 ]]></description>
-            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.1.0/Paste-1.1.0-arm64.dmg" length="2223301" type="application/octet-stream" sparkle:edSignature="wMqg5/r+Gw7sRoiXQd+hnYlyvTm9y5jiwkcCDf6Y/Xn9njnoZ0Me9ECmUftpPTwW8aUOgNoYQgFr/BuIeXMmCA=="/>
+            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.1.0/Paste-1.1.0-arm64.dmg" length="2222816" type="application/octet-stream" sparkle:edSignature="IgibWKnur3Ag9x8bKcU34GBxN74vJzD5rLXDVRKFf8IKnhB1OVIoHqjfvWymhs2t4CC1mza2DUqjdl/shyz8Bg=="/>
         </item>
     </channel>
 </rss>
