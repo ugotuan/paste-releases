@@ -55,7 +55,6 @@ trong vài giây. Toàn bộ lịch sử được mã hóa và lưu trên máy c
 | **🪄 Dán ngay** | Chọn một mục rồi dán trực tiếp trở lại ứng dụng trước đó. |
 | **🎛️ Tùy biến cách hoạt động** | Đổi phím tắt mở Paste, thời gian lưu dữ liệu, âm thanh, Dock, menu bar và khởi động cùng macOS. |
 | **🛡️ Loại trừ ứng dụng nhạy cảm** | Không ghi clipboard khi trình quản lý mật khẩu được chọn đang hoạt động. |
-| **📦 Nhập dữ liệu từ Raycast** | Chuyển lịch sử Clipboard History từ Raycast sang Paste mà không sửa database gốc. |
 | **🔄 Cập nhật tự động** | Kiểm tra phiên bản mới lúc `00:00` và `12:00`; nếu máy đang ngủ, Paste kiểm tra lại khi máy thức. |
 | **🔐 Mã hóa cục bộ** | Metadata và payload được mã hóa bằng AES-256-GCM; khóa nằm trong macOS Keychain. |
 
