@@ -19,9 +19,9 @@
   </p>
 
   <p>
-    <a href="#features">Tính năng</a> ·
-    <a href="#quick-start">Cài đặt</a> ·
-    <a href="#shortcuts">Phím tắt</a> ·
+    <a href="#tính-năng-nổi-bật">Tính năng</a> ·
+    <a href="#bắt-đầu-nhanh">Cài đặt</a> ·
+    <a href="#phím-tắt">Phím tắt</a> ·
     <a href="docs/PRIVACY.md">Quyền riêng tư</a> ·
     <a href="https://github.com/ugotuan/paste-releases/releases">Tất cả phiên bản</a>
   </p>
@@ -41,9 +41,7 @@ trong vài giây. Toàn bộ lịch sử được mã hóa và lưu trên máy c
   <img src="assets/paste-preview.svg" width="100%" alt="Giao diện thư viện clipboard của Paste">
 </div>
 
-<a id="features"></a>
-
-## ✨ Tính năng nổi bật
+## Tính năng nổi bật
 
 | | |
 |---|---|
@@ -60,9 +58,7 @@ trong vài giây. Toàn bộ lịch sử được mã hóa và lưu trên máy c
 | **🔄 Cập nhật tự động** | Kiểm tra phiên bản mới lúc `00:00` và `12:00`; nếu máy đang ngủ, Paste kiểm tra lại khi máy thức. |
 | **🔐 Mã hóa cục bộ** | Metadata và payload được mã hóa bằng AES-256-GCM; khóa nằm trong macOS Keychain. |
 
-<a id="quick-start"></a>
-
-## 🚀 Bắt đầu nhanh
+## Bắt đầu nhanh
 
 1. Tải [**Paste 1.1.1 cho Apple Silicon**](https://github.com/ugotuan/paste-releases/releases/download/v1.1.1/Paste-1.1.1-arm64.dmg).
 2. Mở file `.dmg`.
@@ -95,9 +91,7 @@ Nhấn `⌘⇧V` ở bất kỳ đâu, gõ để tìm, dùng phím mũi tên đ�
 “Chọn tất cả” tuân theo từ khóa và bộ lọc hiện tại. Ví dụ, khi đang xem một
 pinboard, thao tác này chỉ chọn các mục trong pinboard đó.
 
-<a id="shortcuts"></a>
-
-## ⌨️ Phím tắt
+## Phím tắt
 
 | Phím | Tác vụ |
 |---|---|
