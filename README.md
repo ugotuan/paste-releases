@@ -6,15 +6,15 @@
   <p><strong>Lưu, tìm và dán lại mọi thứ bạn đã sao chép — nhanh, đẹp và riêng tư.</strong></p>
 
   <p>
-    <a href="https://github.com/ugotuan/paste-releases/releases/download/v1.2.0/Paste-1.2.0-arm64.dmg">
-      <img src="https://img.shields.io/badge/Download-Paste_1.2.0-8B5CF6?style=for-the-badge&logo=apple&logoColor=white" alt="Download Paste 1.2.0">
+    <a href="https://github.com/ugotuan/paste-releases/releases/download/v1.2.1/Paste-1.2.1-arm64.dmg">
+      <img src="https://img.shields.io/badge/Download-Paste_1.2.1-8B5CF6?style=for-the-badge&logo=apple&logoColor=white" alt="Download Paste 1.2.1">
     </a>
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/macOS-14%2B-111827?style=flat-square&logo=apple" alt="macOS 14+">
     <img src="https://img.shields.io/badge/Apple_Silicon-arm64-111827?style=flat-square" alt="Apple Silicon">
-    <img src="https://img.shields.io/badge/Version-1.2.0-7C3AED?style=flat-square" alt="Version 1.2.0">
+    <img src="https://img.shields.io/badge/Version-1.2.1-7C3AED?style=flat-square" alt="Version 1.2.1">
     <img src="https://img.shields.io/badge/Data-Local_first-059669?style=flat-square" alt="Local first">
   </p>
 
@@ -61,7 +61,7 @@ trong vài giây. Toàn bộ lịch sử được mã hóa và lưu trên máy c
 
 ## Bắt đầu nhanh
 
-1. Tải [**Paste 1.2.0 cho Apple Silicon**](https://github.com/ugotuan/paste-releases/releases/download/v1.2.0/Paste-1.2.0-arm64.dmg).
+1. Tải [**Paste 1.2.1 cho Apple Silicon**](https://github.com/ugotuan/paste-releases/releases/download/v1.2.1/Paste-1.2.1-arm64.dmg).
 2. Mở file `.dmg`.
 3. Kéo **Paste.app** vào thư mục **Applications**.
 4. Mở Paste và chọn **Open** nếu macOS hỏi xác nhận.
@@ -87,7 +87,8 @@ Bạn có thể đổi tổ hợp này tại **Cài đặt → Chung → Phím t
 ### Xem ảnh lớn
 
 Bấm icon phóng to trên thẻ ảnh hoặc chọn **Xem ảnh lớn** trong menu chuột phải
-để mở preview ở giữa màn hình. Preview hỗ trợ zoom, cuộn và sao chép lại ảnh.
+để mở preview ở giữa màn hình. Zoom bằng trackpad bám theo vị trí con trỏ; sau
+khi phóng to, giữ chuột kéo ảnh để xem các vùng khác mà không di chuyển popup.
 Nhấp đúp vào thẻ ảnh vẫn dán và đóng Quick Picker như các loại nội dung khác.
 
 ### Chọn và xóa nhiều mục
@@ -184,15 +185,14 @@ mới.
 
 ## 📦 Phiên bản mới nhất
 
-### Paste 1.2.0
+### Paste 1.2.1
 
-- Preview ảnh trong cửa sổ lớn, hỗ trợ zoom, cuộn và sao chép lại.
-- Ảnh dài luôn nằm gọn trong thẻ và được decode tối ưu ngoài main thread.
-- Quick Picker hoạt động ổn định trên fullscreen Space.
-- Nhấn icon hoặc menu chuột phải để preview; nhấp đúp vẫn dán bình thường.
+- Zoom ảnh theo đúng vị trí con trỏ.
+- Giữ chuột kéo để xem các vùng khác của ảnh đã phóng to.
+- Nút zoom giữ nguyên vùng đang xem và không còn kéo nhầm cả popup.
 
-[Xem ghi chú phát hành](https://github.com/ugotuan/paste-releases/releases/tag/v1.2.0)
-· [Tải DMG](https://github.com/ugotuan/paste-releases/releases/download/v1.2.0/Paste-1.2.0-arm64.dmg)
+[Xem ghi chú phát hành](https://github.com/ugotuan/paste-releases/releases/tag/v1.2.1)
+· [Tải DMG](https://github.com/ugotuan/paste-releases/releases/download/v1.2.1/Paste-1.2.1-arm64.dmg)
 
 ---
 
