@@ -3,6 +3,30 @@
     <channel>
         <title>Paste</title>
         <item>
+            <title>1.2.5</title>
+            <pubDate>Thu, 30 Jul 2026 15:47:01 +0700</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Paste 1.2.5
+
+- Sửa mở Paste nhiều lần từ Spotlight tạo hai cửa sổ Library chồng lên nhau.
+- Library luôn tái sử dụng một cửa sổ duy nhất và tự loại bỏ cửa sổ trùng.
+- Nút đỏ đóng đúng cửa sổ đang được bấm, không còn khung Library bị kẹt.
+- Đóng hoàn toàn Quick Picker và preview trước khi chuyển sang Library.
+- Chặn nhiều tiến trình Paste chạy đồng thời.
+
+Đây là bản dành cho máy Mac Apple Silicon và yêu cầu macOS 14 trở lên.
+]]></description>
+            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste-1.2.5-arm64.dmg" length="2342123" type="application/octet-stream" sparkle:edSignature="bq1YWSihxJZq/1ISFw2s8AS+X16xdoWcCyHR5Shx/lezMIWqhrPJEQnX7SlPZXV40sevc3xYoXnUfIrjiacRBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste9-8.delta" sparkle:deltaFrom="8" length="114326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KwP4/RiuWj3IXk4khRtcZV2j4oBzdzxi8cpH9AXNhSjXOJGnW7sOL3MR5xZsrNc7QbuiY6IkRqZfDWYEjdm6DQ=="/>
+                <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste9-7.delta" sparkle:deltaFrom="7" length="173438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LzApZGNVIPoqMXHOoZjt0R59aS0B+kOMZtakitxB+GFnw1G3sBwzK/HK7gSfa1WuDGeTRKPIpbzTkTyy+IDuBw=="/>
+                <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste9-6.delta" sparkle:deltaFrom="6" length="169066" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rPOpy5chodRdZ1/im5cpIJLNnNa8e+iZqGIt2f8G0T1KlADMbTNWwiVZKIpHeLZm3pQt1eJHO6uSjpbVUkyhAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2.4</title>
             <pubDate>Thu, 30 Jul 2026 13:55:24 +0700</pubDate>
             <sparkle:version>8</sparkle:version>
@@ -42,26 +66,6 @@
             <sparkle:deltas>
                 <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.3/Paste7-6.delta" sparkle:deltaFrom="6" length="89886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UW78+zcYOvD+b33z54kOA3EYcXT+U59bk2gm0/vAXRAjfpaISjaSlazkY3gPAhCKQsc+QyHm10LBlWDchsMLDQ=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.2.2</title>
-            <pubDate>Thu, 30 Jul 2026 10:42:00 +0700</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Paste 1.2.2
-
-- Sửa mở Thư viện từ menu bar khi cửa sổ Cài đặt đang hiển thị.
-- Mở lại Thư viện ổn định sau khi đóng bằng nút đỏ của macOS.
-- Giảm số lần render lại thẻ và publish selection để cuộn, chọn và tìm kiếm mượt hơn.
-- Tối ưu search index, statistics và catalog mã hóa khi thư viện có nhiều mục.
-- Giảm giới hạn cache và kích thước thumbnail để tiết kiệm RAM.
-- Giảm wake-up nền của clipboard monitor mà vẫn giữ tốc độ nhận nội dung mới.
-
-Đây là bản dành cho máy Mac Apple Silicon và yêu cầu macOS 14 trở lên.
-]]></description>
-            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.2/Paste-1.2.2-arm64.dmg" length="2330377" type="application/octet-stream" sparkle:edSignature="l0S0vNyHv8Iz5zA5MngIYmUZAnpIQOMh3v5h8+XcJdxWz0nRN9SyxHWFizPdkHy9FWroq0qJr+gww9OUJL50Dg=="/>
         </item>
     </channel>
 </rss>

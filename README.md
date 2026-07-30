@@ -6,15 +6,15 @@
   <p><strong>Lưu, tìm và dán lại mọi thứ bạn đã sao chép — nhanh, đẹp và riêng tư.</strong></p>
 
   <p>
-    <a href="https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste-1.2.4-arm64.dmg">
-      <img src="https://img.shields.io/badge/Download-Paste_1.2.4-8B5CF6?style=for-the-badge&logo=apple&logoColor=white" alt="Download Paste 1.2.4">
+    <a href="https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste-1.2.5-arm64.dmg">
+      <img src="https://img.shields.io/badge/Download-Paste_1.2.5-8B5CF6?style=for-the-badge&logo=apple&logoColor=white" alt="Download Paste 1.2.5">
     </a>
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/macOS-14%2B-111827?style=flat-square&logo=apple" alt="macOS 14+">
     <img src="https://img.shields.io/badge/Apple_Silicon-arm64-111827?style=flat-square" alt="Apple Silicon">
-    <img src="https://img.shields.io/badge/Version-1.2.4-7C3AED?style=flat-square" alt="Version 1.2.4">
+    <img src="https://img.shields.io/badge/Version-1.2.5-7C3AED?style=flat-square" alt="Version 1.2.5">
     <img src="https://img.shields.io/badge/Data-Local_first-059669?style=flat-square" alt="Local first">
   </p>
 
@@ -53,6 +53,7 @@ trong vài giây. Toàn bộ lịch sử được mã hóa và lưu trên máy c
 | **✅ Chọn và xóa theo nhóm** | Giữ `⌘` để chọn nhiều thẻ hoặc nhấn `⌘A` để chọn tất cả kết quả đang hiển thị, sau đó xóa một lần có xác nhận. |
 | **⭐ Yêu thích & Pinboard** | Đánh dấu nội dung quan trọng và gom chúng vào các pinboard riêng để truy cập nhanh. |
 | **🪄 Dán ngay** | Chọn một thẻ trong Library rồi nhấn `Return`, hoặc chọn từ Quick Picker, để dán trực tiếp vào ứng dụng trước đó. |
+| **🪟 Cửa sổ đơn ổn định** | Mở Paste nhiều lần từ Spotlight, Dock hoặc menu bar luôn tái sử dụng Library hiện có và đóng sạch các panel tạm. |
 | **🎛️ Tùy biến cách hoạt động** | Đổi phím tắt mở Paste, thời gian lưu dữ liệu, âm thanh, Dock, menu bar và khởi động cùng macOS. |
 | **🛡️ Loại trừ ứng dụng nhạy cảm** | Không ghi clipboard khi trình quản lý mật khẩu được chọn đang hoạt động. |
 | **🔄 Cập nhật tự động** | Kiểm tra phiên bản mới lúc `00:00` và `12:00`; nếu máy đang ngủ, Paste kiểm tra lại khi máy thức. |
@@ -60,7 +61,7 @@ trong vài giây. Toàn bộ lịch sử được mã hóa và lưu trên máy c
 
 ## Bắt đầu nhanh
 
-1. Tải [**Paste 1.2.4 cho Apple Silicon**](https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste-1.2.4-arm64.dmg).
+1. Tải [**Paste 1.2.5 cho Apple Silicon**](https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste-1.2.5-arm64.dmg).
 2. Mở file `.dmg`.
 3. Kéo **Paste.app** vào thư mục **Applications**.
 4. Mở Paste và chọn **Open** nếu macOS hỏi xác nhận.
@@ -195,15 +196,16 @@ mới.
 
 ## 📦 Phiên bản mới nhất
 
-### Paste 1.2.4
+### Paste 1.2.5
 
-- Nhấn `Return` để dán ngay thẻ đang chọn từ Library.
-- Không cướp Enter khi đang nhập tìm kiếm, Pinboard hoặc chỉnh sửa nội dung.
-- Hiển thị và yêu cầu quyền Accessibility rõ ràng cho tính năng **Dán ngay**.
-- Chờ ứng dụng đích active trước khi gửi `⌘V` để thao tác dán ổn định hơn.
+- Sửa mở Paste nhiều lần từ Spotlight tạo hai cửa sổ Library chồng lên nhau.
+- Library luôn tái sử dụng một cửa sổ duy nhất và tự loại bỏ cửa sổ trùng.
+- Nút đỏ đóng đúng cửa sổ đang được bấm, không còn khung Library bị kẹt.
+- Đóng hoàn toàn Quick Picker và preview trước khi chuyển sang Library.
+- Chặn nhiều tiến trình Paste chạy đồng thời.
 
-[Xem ghi chú phát hành](https://github.com/ugotuan/paste-releases/releases/tag/v1.2.4)
-· [Tải DMG](https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste-1.2.4-arm64.dmg)
+[Xem ghi chú phát hành](https://github.com/ugotuan/paste-releases/releases/tag/v1.2.5)
+· [Tải DMG](https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste-1.2.5-arm64.dmg)
 
 ---
 
