@@ -3,6 +3,25 @@
     <channel>
         <title>Paste</title>
         <item>
+            <title>1.2.3</title>
+            <pubDate>Thu, 30 Jul 2026 13:23:42 +0700</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Paste 1.2.3
+
+- Sửa hộp cập nhật tự động không hiển thị khi Sparkle tìm thấy bản mới trong lúc Paste chạy nền.
+- Đưa riêng cửa sổ cập nhật lên trước mà không tự động mở Thư viện.
+
+Đây là bản dành cho máy Mac Apple Silicon và yêu cầu macOS 14 trở lên.
+]]></description>
+            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.3/Paste-1.2.3-arm64.dmg" length="2331582" type="application/octet-stream" sparkle:edSignature="TGSjrAQ/rR259YvuChbSl5keOkia0ue3gfuam/AEmYhRGGZozkSa0x9OtvCZMlNw41XVnFBA01JM3qIKR2npAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.3/Paste7-6.delta" sparkle:deltaFrom="6" length="89886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UW78+zcYOvD+b33z54kOA3EYcXT+U59bk2gm0/vAXRAjfpaISjaSlazkY3gPAhCKQsc+QyHm10LBlWDchsMLDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2.2</title>
             <pubDate>Thu, 30 Jul 2026 10:42:00 +0700</pubDate>
             <sparkle:version>6</sparkle:version>
@@ -41,30 +60,6 @@
 Đây là bản dành cho máy Mac Apple Silicon và yêu cầu macOS 14 trở lên.
 ]]></description>
             <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.1/Paste-1.2.1-arm64.dmg" length="2331120" type="application/octet-stream" sparkle:edSignature="pmcyw//jNTbnGz+61gQZ7MDUL3vL4hhg3rACNacKZV2/st77/AHyO5+GvUDM2xQ+p1Ocq972o/WT5yWIAL0FDg=="/>
-        </item>
-        <item>
-            <title>1.2.0</title>
-            <pubDate>Wed, 29 Jul 2026 17:59:35 +0700</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Paste 1.2.0
-
-- Thêm cửa sổ preview ảnh riêng, kích thước lớn và nằm giữa màn hình.
-- Hỗ trợ zoom, cuộn và sao chép lại ảnh ngay trong preview.
-- Thêm nút phóng to và lệnh **Xem ảnh lớn** trong menu chuột phải của thẻ ảnh.
-- Giữ thao tác nhấp đúp thẻ ảnh để dán và đóng Quick Picker như trước.
-- Sửa ảnh dài bị tràn khỏi thẻ; thumbnail và preview được downsample, decode ngoài
-  main thread và cache có giới hạn để cuộn mượt hơn.
-- Quick Picker hiển thị ổn định trên fullscreen Space của Paste hoặc ứng dụng
-  khác mà không làm chuyển Space.
-- Khi mở preview từ Quick Picker, dải thẻ được khôi phục đúng trạng thái sau khi
-  đóng ảnh.
-
-Đây là bản dành cho máy Mac Apple Silicon và yêu cầu macOS 14 trở lên.
-]]></description>
-            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.0/Paste-1.2.0-arm64.dmg" length="2318460" type="application/octet-stream" sparkle:edSignature="GOm4qf/f0PeAEORNhnBz9v2ZXpFuGFNKlszC/ZGDW3pMj4d6Ci6cpVoMsgfrpafopAHizZOk0OjsBM+t69QzDA=="/>
         </item>
     </channel>
 </rss>
