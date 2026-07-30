@@ -6,15 +6,15 @@
   <p><strong>Lưu, tìm và dán lại mọi thứ bạn đã sao chép — nhanh, đẹp và riêng tư.</strong></p>
 
   <p>
-    <a href="https://github.com/ugotuan/paste-releases/releases/download/v1.2.1/Paste-1.2.1-arm64.dmg">
-      <img src="https://img.shields.io/badge/Download-Paste_1.2.1-8B5CF6?style=for-the-badge&logo=apple&logoColor=white" alt="Download Paste 1.2.1">
+    <a href="https://github.com/ugotuan/paste-releases/releases/download/v1.2.2/Paste-1.2.2-arm64.dmg">
+      <img src="https://img.shields.io/badge/Download-Paste_1.2.2-8B5CF6?style=for-the-badge&logo=apple&logoColor=white" alt="Download Paste 1.2.2">
     </a>
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/macOS-14%2B-111827?style=flat-square&logo=apple" alt="macOS 14+">
     <img src="https://img.shields.io/badge/Apple_Silicon-arm64-111827?style=flat-square" alt="Apple Silicon">
-    <img src="https://img.shields.io/badge/Version-1.2.1-7C3AED?style=flat-square" alt="Version 1.2.1">
+    <img src="https://img.shields.io/badge/Version-1.2.2-7C3AED?style=flat-square" alt="Version 1.2.2">
     <img src="https://img.shields.io/badge/Data-Local_first-059669?style=flat-square" alt="Local first">
   </p>
 
@@ -60,7 +60,7 @@ trong vài giây. Toàn bộ lịch sử được mã hóa và lưu trên máy c
 
 ## Bắt đầu nhanh
 
-1. Tải [**Paste 1.2.1 cho Apple Silicon**](https://github.com/ugotuan/paste-releases/releases/download/v1.2.1/Paste-1.2.1-arm64.dmg).
+1. Tải [**Paste 1.2.2 cho Apple Silicon**](https://github.com/ugotuan/paste-releases/releases/download/v1.2.2/Paste-1.2.2-arm64.dmg).
 2. Mở file `.dmg`.
 3. Kéo **Paste.app** vào thư mục **Applications**.
 4. Mở Paste và chọn **Open** nếu macOS hỏi xác nhận.
@@ -184,14 +184,14 @@ mới.
 
 ## 📦 Phiên bản mới nhất
 
-### Paste 1.2.1
+### Paste 1.2.2
 
-- Zoom ảnh theo đúng vị trí con trỏ.
-- Giữ chuột kéo để xem các vùng khác của ảnh đã phóng to.
-- Nút zoom giữ nguyên vùng đang xem và không còn kéo nhầm cả popup.
+- Mở lại Thư viện ổn định từ menu bar sau khi đóng cửa sổ bằng nút đỏ.
+- Cuộn, chọn thẻ và tìm kiếm mượt hơn với thư viện lớn.
+- Giảm RAM, I/O catalog và wake-up nền của clipboard monitor.
 
-[Xem ghi chú phát hành](https://github.com/ugotuan/paste-releases/releases/tag/v1.2.1)
-· [Tải DMG](https://github.com/ugotuan/paste-releases/releases/download/v1.2.1/Paste-1.2.1-arm64.dmg)
+[Xem ghi chú phát hành](https://github.com/ugotuan/paste-releases/releases/tag/v1.2.2)
+· [Tải DMG](https://github.com/ugotuan/paste-releases/releases/download/v1.2.2/Paste-1.2.2-arm64.dmg)
 
 ---
 

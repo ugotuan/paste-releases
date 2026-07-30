@@ -3,6 +3,26 @@
     <channel>
         <title>Paste</title>
         <item>
+            <title>1.2.2</title>
+            <pubDate>Thu, 30 Jul 2026 10:42:00 +0700</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Paste 1.2.2
+
+- Sửa mở Thư viện từ menu bar khi cửa sổ Cài đặt đang hiển thị.
+- Mở lại Thư viện ổn định sau khi đóng bằng nút đỏ của macOS.
+- Giảm số lần render lại thẻ và publish selection để cuộn, chọn và tìm kiếm mượt hơn.
+- Tối ưu search index, statistics và catalog mã hóa khi thư viện có nhiều mục.
+- Giảm giới hạn cache và kích thước thumbnail để tiết kiệm RAM.
+- Giảm wake-up nền của clipboard monitor mà vẫn giữ tốc độ nhận nội dung mới.
+
+Đây là bản dành cho máy Mac Apple Silicon và yêu cầu macOS 14 trở lên.
+]]></description>
+            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.2/Paste-1.2.2-arm64.dmg" length="2330377" type="application/octet-stream" sparkle:edSignature="l0S0vNyHv8Iz5zA5MngIYmUZAnpIQOMh3v5h8+XcJdxWz0nRN9SyxHWFizPdkHy9FWroq0qJr+gww9OUJL50Dg=="/>
+        </item>
+        <item>
             <title>1.2.1</title>
             <pubDate>Wed, 29 Jul 2026 18:32:51 +0700</pubDate>
             <sparkle:version>5</sparkle:version>
@@ -45,24 +65,6 @@
 Đây là bản dành cho máy Mac Apple Silicon và yêu cầu macOS 14 trở lên.
 ]]></description>
             <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.0/Paste-1.2.0-arm64.dmg" length="2318460" type="application/octet-stream" sparkle:edSignature="GOm4qf/f0PeAEORNhnBz9v2ZXpFuGFNKlszC/ZGDW3pMj4d6Ci6cpVoMsgfrpafopAHizZOk0OjsBM+t69QzDA=="/>
-        </item>
-        <item>
-            <title>1.1.1</title>
-            <pubDate>Wed, 29 Jul 2026 11:14:32 +0700</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Paste 1.1.1
-
-- Thêm nút **Chọn tất cả** trong thư viện Paste.
-- Hỗ trợ `⌘A` để chọn toàn bộ kết quả đang hiển thị theo filter hoặc từ khóa.
-- Thêm chọn tất cả trong quick picker, kết hợp `⌘⌫` để xóa nhóm.
-- Giữ nguyên bước xác nhận trước khi xóa dữ liệu.
-
-Đây là bản dành cho máy Mac Apple Silicon.
-]]></description>
-            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.1.1/Paste-1.1.1-arm64.dmg" length="2241323" type="application/octet-stream" sparkle:edSignature="fss8mv2mNAdB7KbsTPoTZ+Ga2qgRp3ps+nnTJYqBzCmtHhc7c1uUCc1s0Lai7M8xOXTrJa2zjFhdNeyzDZHnCA=="/>
         </item>
     </channel>
 </rss>

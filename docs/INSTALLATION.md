@@ -12,7 +12,7 @@
 ## Cài đặt
 
 1. Tải
-   [Paste-1.1.1-arm64.dmg](https://github.com/ugotuan/paste-releases/releases/download/v1.1.1/Paste-1.1.1-arm64.dmg).
+   [Paste-1.2.2-arm64.dmg](https://github.com/ugotuan/paste-releases/releases/download/v1.2.2/Paste-1.2.2-arm64.dmg).
 2. Nhấp đúp file vừa tải để mở disk image.
 3. Kéo **Paste.app** vào shortcut **Applications**.
 4. Eject disk image Paste.
