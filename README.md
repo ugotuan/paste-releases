@@ -6,15 +6,15 @@
   <p><strong>Lưu, tìm và dán lại mọi thứ bạn đã sao chép — nhanh, đẹp và riêng tư.</strong></p>
 
   <p>
-    <a href="https://github.com/ugotuan/paste-releases/releases/download/v1.2.2/Paste-1.2.2-arm64.dmg">
-      <img src="https://img.shields.io/badge/Download-Paste_1.2.2-8B5CF6?style=for-the-badge&logo=apple&logoColor=white" alt="Download Paste 1.2.2">
+    <a href="https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste-1.2.4-arm64.dmg">
+      <img src="https://img.shields.io/badge/Download-Paste_1.2.4-8B5CF6?style=for-the-badge&logo=apple&logoColor=white" alt="Download Paste 1.2.4">
     </a>
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/macOS-14%2B-111827?style=flat-square&logo=apple" alt="macOS 14+">
     <img src="https://img.shields.io/badge/Apple_Silicon-arm64-111827?style=flat-square" alt="Apple Silicon">
-    <img src="https://img.shields.io/badge/Version-1.2.2-7C3AED?style=flat-square" alt="Version 1.2.2">
+    <img src="https://img.shields.io/badge/Version-1.2.4-7C3AED?style=flat-square" alt="Version 1.2.4">
     <img src="https://img.shields.io/badge/Data-Local_first-059669?style=flat-square" alt="Local first">
   </p>
 
@@ -52,7 +52,7 @@ trong vài giây. Toàn bộ lịch sử được mã hóa và lưu trên máy c
 | **🧠 Tự động phân loại** | Nhận biết liên kết, mã màu, source code, ảnh, tệp và nội dung thông thường để hiển thị phù hợp. |
 | **✅ Chọn và xóa theo nhóm** | Giữ `⌘` để chọn nhiều thẻ hoặc nhấn `⌘A` để chọn tất cả kết quả đang hiển thị, sau đó xóa một lần có xác nhận. |
 | **⭐ Yêu thích & Pinboard** | Đánh dấu nội dung quan trọng và gom chúng vào các pinboard riêng để truy cập nhanh. |
-| **🪄 Dán ngay** | Chọn một mục rồi dán trực tiếp trở lại ứng dụng trước đó. |
+| **🪄 Dán ngay** | Chọn một thẻ trong Library rồi nhấn `Return`, hoặc chọn từ Quick Picker, để dán trực tiếp vào ứng dụng trước đó. |
 | **🎛️ Tùy biến cách hoạt động** | Đổi phím tắt mở Paste, thời gian lưu dữ liệu, âm thanh, Dock, menu bar và khởi động cùng macOS. |
 | **🛡️ Loại trừ ứng dụng nhạy cảm** | Không ghi clipboard khi trình quản lý mật khẩu được chọn đang hoạt động. |
 | **🔄 Cập nhật tự động** | Kiểm tra phiên bản mới lúc `00:00` và `12:00`; nếu máy đang ngủ, Paste kiểm tra lại khi máy thức. |
@@ -60,7 +60,7 @@ trong vài giây. Toàn bộ lịch sử được mã hóa và lưu trên máy c
 
 ## Bắt đầu nhanh
 
-1. Tải [**Paste 1.2.2 cho Apple Silicon**](https://github.com/ugotuan/paste-releases/releases/download/v1.2.2/Paste-1.2.2-arm64.dmg).
+1. Tải [**Paste 1.2.4 cho Apple Silicon**](https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste-1.2.4-arm64.dmg).
 2. Mở file `.dmg`.
 3. Kéo **Paste.app** vào thư mục **Applications**.
 4. Mở Paste và chọn **Open** nếu macOS hỏi xác nhận.
@@ -82,6 +82,16 @@ thích và pinboard.
 Nhấn `⌘⇧V` ở bất kỳ đâu, gõ để tìm, dùng phím mũi tên để di chuyển rồi nhấn
 `Return` để dán. Quick Picker vẫn hiển thị trên các ứng dụng đang fullscreen.
 Bạn có thể đổi tổ hợp này tại **Cài đặt → Chung → Phím tắt**.
+
+### Dán ngay từ Library
+
+Nhấp một thẻ trong Library rồi nhấn `Return`. Paste sẽ chép nội dung, quay lại
+ứng dụng trước đó và tự gửi `⌘V`. Enter vẫn hoạt động bình thường khi bạn đang
+nhập trong ô tìm kiếm, Pinboard hoặc trình sửa nội dung.
+
+Lần đầu dùng **Dán ngay**, macOS có thể yêu cầu quyền Accessibility. Bạn có thể
+kiểm tra hoặc cấp lại quyền tại **Cài đặt → Chung → Dán ngay**. Nếu chưa cấp
+quyền, Paste vẫn chép nội dung vào clipboard để bạn dán thủ công.
 
 ### Xem ảnh lớn
 
@@ -108,7 +118,7 @@ pinboard, thao tác này chỉ chọn các mục trong pinboard đó.
 | `⌘A` | Chọn tất cả kết quả clipboard đang hiển thị |
 | `⌘` + nhấp | Thêm hoặc bỏ từng thẻ khỏi vùng chọn |
 | `←` `→` `↑` `↓` | Di chuyển giữa các kết quả trong Quick Picker |
-| `Return` | Dán mục đang chọn từ Quick Picker |
+| `Return` | Dán ngay thẻ đang chọn từ Library hoặc Quick Picker |
 | `⌘1` … `⌘9` | Dán nhanh một trong chín kết quả đầu |
 | `⌘⌫` | Yêu cầu xóa các mục đã chọn trong Quick Picker |
 | `Esc` | Đóng Quick Picker hoặc hủy hộp xác nhận |
@@ -132,8 +142,9 @@ pinboard, thao tác này chỉ chọn các mục trong pinboard đó.
 | **Accessibility** | Dùng tính năng “Dán ngay” để gửi `⌘V` tới ứng dụng khác | Không |
 | **Input Monitoring** | Phím tắt mở Paste dùng API hệ thống | **Không cần** |
 
-Bạn vẫn có thể dùng thư viện và sao chép lại nội dung mà không cấp
-Accessibility.
+Paste hiển thị trạng thái quyền tại **Cài đặt → Chung → Dán ngay** và chỉ yêu
+cầu khi bạn sử dụng tính năng này. Bạn vẫn có thể dùng thư viện và sao chép lại
+nội dung mà không cấp Accessibility.
 
 ## 🔄 Cập nhật
 
@@ -184,14 +195,15 @@ mới.
 
 ## 📦 Phiên bản mới nhất
 
-### Paste 1.2.2
+### Paste 1.2.4
 
-- Mở lại Thư viện ổn định từ menu bar sau khi đóng cửa sổ bằng nút đỏ.
-- Cuộn, chọn thẻ và tìm kiếm mượt hơn với thư viện lớn.
-- Giảm RAM, I/O catalog và wake-up nền của clipboard monitor.
+- Nhấn `Return` để dán ngay thẻ đang chọn từ Library.
+- Không cướp Enter khi đang nhập tìm kiếm, Pinboard hoặc chỉnh sửa nội dung.
+- Hiển thị và yêu cầu quyền Accessibility rõ ràng cho tính năng **Dán ngay**.
+- Chờ ứng dụng đích active trước khi gửi `⌘V` để thao tác dán ổn định hơn.
 
-[Xem ghi chú phát hành](https://github.com/ugotuan/paste-releases/releases/tag/v1.2.2)
-· [Tải DMG](https://github.com/ugotuan/paste-releases/releases/download/v1.2.2/Paste-1.2.2-arm64.dmg)
+[Xem ghi chú phát hành](https://github.com/ugotuan/paste-releases/releases/tag/v1.2.4)
+· [Tải DMG](https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste-1.2.4-arm64.dmg)
 
 ---
 

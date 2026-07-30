@@ -12,7 +12,7 @@
 ## Cài đặt
 
 1. Tải
-   [Paste-1.2.2-arm64.dmg](https://github.com/ugotuan/paste-releases/releases/download/v1.2.2/Paste-1.2.2-arm64.dmg).
+   [Paste-1.2.4-arm64.dmg](https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste-1.2.4-arm64.dmg).
 2. Nhấp đúp file vừa tải để mở disk image.
 3. Kéo **Paste.app** vào shortcut **Applications**.
 4. Eject disk image Paste.
@@ -61,6 +61,14 @@ Phím mặc định là `⌘⇧V`. Để thay đổi:
 
 Paste chỉ cần Accessibility khi bạn dùng **Dán ngay**, vì macOS yêu cầu quyền
 để ứng dụng gửi tổ hợp `⌘V` tới ứng dụng khác.
+
+Lần đầu sử dụng, Paste sẽ yêu cầu quyền qua hộp thoại của macOS. Bạn cũng có thể
+mở **Paste → Cài đặt → Chung → Dán ngay** để xem trạng thái và yêu cầu cấp quyền.
+Sau khi bật Paste trong **System Settings → Privacy & Security →
+Accessibility**, quay lại Paste và thử thao tác dán lần nữa.
+
+Nếu chưa cấp quyền, Paste vẫn chép mục đã chọn vào clipboard nhưng không thể tự
+gửi `⌘V`; bạn vẫn có thể dán thủ công.
 
 Bạn không cần cấp quyền này để:
 

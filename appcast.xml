@@ -3,6 +3,28 @@
     <channel>
         <title>Paste</title>
         <item>
+            <title>1.2.4</title>
+            <pubDate>Thu, 30 Jul 2026 13:55:24 +0700</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Paste 1.2.4
+
+- Nhấn `Return` để dán ngay thẻ đang chọn từ Library vào ứng dụng trước đó.
+- Không cướp Enter khi đang nhập tìm kiếm, Pinboard hoặc chỉnh sửa nội dung.
+- Hiển thị và yêu cầu quyền Accessibility rõ ràng cho tính năng **Dán ngay**.
+- Chờ ứng dụng đích active trước khi gửi `⌘V` để thao tác dán ổn định hơn.
+
+Đây là bản dành cho máy Mac Apple Silicon và yêu cầu macOS 14 trở lên.
+]]></description>
+            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste-1.2.4-arm64.dmg" length="2341126" type="application/octet-stream" sparkle:edSignature="V3/Q4fEwxUuHFgNwzmbiX5SW8YTAYt5Ie7tAR2j2hzkE7ArTtvECJdgqDnPNHLLAN7j0fB8AW3a8Q9mRBx3dCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste8-7.delta" sparkle:deltaFrom="7" length="161822" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="91AXrnqwLj8UDcrG8DhbQ8p2r+/LwK6ovgv9MlwNLqN2OZG4LpzJCwijNHwJPt3yrTTqxUclWZdZxJl537WKAA=="/>
+                <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste8-6.delta" sparkle:deltaFrom="6" length="169990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p5nwbDGhfLwlHGfwLt3rdYG1dwCx0/pMhF4+H5mFA1JC0dIPiq0SV5bsM/YFjq5O2R6zkgEIGxcS0KVoUjmXCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2.3</title>
             <pubDate>Thu, 30 Jul 2026 13:23:42 +0700</pubDate>
             <sparkle:version>7</sparkle:version>
@@ -40,26 +62,6 @@
 Đây là bản dành cho máy Mac Apple Silicon và yêu cầu macOS 14 trở lên.
 ]]></description>
             <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.2/Paste-1.2.2-arm64.dmg" length="2330377" type="application/octet-stream" sparkle:edSignature="l0S0vNyHv8Iz5zA5MngIYmUZAnpIQOMh3v5h8+XcJdxWz0nRN9SyxHWFizPdkHy9FWroq0qJr+gww9OUJL50Dg=="/>
-        </item>
-        <item>
-            <title>1.2.1</title>
-            <pubDate>Wed, 29 Jul 2026 18:32:51 +0700</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Paste 1.2.1
-
-- Zoom ảnh bằng trackpad theo đúng vị trí con trỏ thay vì cố định ở giữa.
-- Giữ chuột và kéo để xem mọi vùng của ảnh sau khi phóng to.
-- Các nút phóng to và thu nhỏ giữ nguyên vùng ảnh đang xem.
-- Nhấp đúp chuyển nhanh giữa chế độ vừa khung và mức zoom 200%.
-- Giới hạn vùng kéo thông minh để ảnh không bị mất khỏi canvas.
-- Sửa xung đột khiến thao tác kéo ảnh lại di chuyển cả cửa sổ preview.
-
-Đây là bản dành cho máy Mac Apple Silicon và yêu cầu macOS 14 trở lên.
-]]></description>
-            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.1/Paste-1.2.1-arm64.dmg" length="2331120" type="application/octet-stream" sparkle:edSignature="pmcyw//jNTbnGz+61gQZ7MDUL3vL4hhg3rACNacKZV2/st77/AHyO5+GvUDM2xQ+p1Ocq972o/WT5yWIAL0FDg=="/>
         </item>
     </channel>
 </rss>
