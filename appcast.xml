@@ -46,7 +46,7 @@
 
 Đây là bản dành cho máy Mac Apple Silicon và yêu cầu macOS 14 trở lên.
 ]]></description>
-            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.3.0/Paste-1.2.5-arm64.dmg" length="2342123" type="application/octet-stream" sparkle:edSignature="bq1YWSihxJZq/1ISFw2s8AS+X16xdoWcCyHR5Shx/lezMIWqhrPJEQnX7SlPZXV40sevc3xYoXnUfIrjiacRBw=="/>
+            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste-1.2.5-arm64.dmg" length="2342123" type="application/octet-stream" sparkle:edSignature="bq1YWSihxJZq/1ISFw2s8AS+X16xdoWcCyHR5Shx/lezMIWqhrPJEQnX7SlPZXV40sevc3xYoXnUfIrjiacRBw=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste9-8.delta" sparkle:deltaFrom="8" length="114326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KwP4/RiuWj3IXk4khRtcZV2j4oBzdzxi8cpH9AXNhSjXOJGnW7sOL3MR5xZsrNc7QbuiY6IkRqZfDWYEjdm6DQ=="/>
                 <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste9-7.delta" sparkle:deltaFrom="7" length="173438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LzApZGNVIPoqMXHOoZjt0R59aS0B+kOMZtakitxB+GFnw1G3sBwzK/HK7gSfa1WuDGeTRKPIpbzTkTyy+IDuBw=="/>
@@ -69,7 +69,7 @@
 
 Đây là bản dành cho máy Mac Apple Silicon và yêu cầu macOS 14 trở lên.
 ]]></description>
-            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.3.0/Paste-1.2.4-arm64.dmg" length="2341126" type="application/octet-stream" sparkle:edSignature="V3/Q4fEwxUuHFgNwzmbiX5SW8YTAYt5Ie7tAR2j2hzkE7ArTtvECJdgqDnPNHLLAN7j0fB8AW3a8Q9mRBx3dCg=="/>
+            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste-1.2.4-arm64.dmg" length="2341126" type="application/octet-stream" sparkle:edSignature="V3/Q4fEwxUuHFgNwzmbiX5SW8YTAYt5Ie7tAR2j2hzkE7ArTtvECJdgqDnPNHLLAN7j0fB8AW3a8Q9mRBx3dCg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste8-7.delta" sparkle:deltaFrom="7" length="161822" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="91AXrnqwLj8UDcrG8DhbQ8p2r+/LwK6ovgv9MlwNLqN2OZG4LpzJCwijNHwJPt3yrTTqxUclWZdZxJl537WKAA=="/>
                 <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste8-6.delta" sparkle:deltaFrom="6" length="169990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p5nwbDGhfLwlHGfwLt3rdYG1dwCx0/pMhF4+H5mFA1JC0dIPiq0SV5bsM/YFjq5O2R6zkgEIGxcS0KVoUjmXCQ=="/>
