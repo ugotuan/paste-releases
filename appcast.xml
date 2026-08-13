@@ -3,6 +3,32 @@
     <channel>
         <title>Paste</title>
         <item>
+            <title>1.3.1</title>
+            <pubDate>Thu, 13 Aug 2026 14:23:16 +0700</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Paste 1.3.1
+
+- Sửa lỗi **Dán ngay** không hoạt động khi chọn thẻ từ Quick Picker mà chưa mở Thư viện.
+- Paste kích hoạt tường minh ứng dụng bạn vừa làm việc và chờ nó thật sự nhận focus trước khi gửi `⌘V`.
+- Xác định ứng dụng đích bằng app active gần nhất, nên rời Thư viện sang ứng dụng khác rồi quay lại vẫn dán đúng chỗ.
+- Quick Picker không còn ẩn các cửa sổ Paste mà bạn chưa mở.
+- Nếu ứng dụng đích không nhận được focus, Paste báo rõ và giữ nội dung trong clipboard thay vì gửi phím vào chỗ vô định.
+
+Đây là bản dành cho máy Mac Apple Silicon và yêu cầu macOS 14 trở lên.
+]]></description>
+            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.3.1/Paste-1.3.1-arm64.dmg" length="2357574" type="application/octet-stream" sparkle:edSignature="fFaCxLEqsTQCgxPGCAlCm7R+If9OARujCXIoH/vU3XaozVbYjH7OnVv9HAvQEQxeecYJdINOX21zFJHiCkL2Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.3.1/Paste11-10.delta" sparkle:deltaFrom="10" length="131446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="M1jPaYs7e2fIjYKFcmWx8A+5M78jkQYCWQyr3bwxoSgscjYQakQkuvBeKfCgoFdDnjcV6mFnxvSWZT77pS2zCQ=="/>
+                <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.3.1/Paste11-9.delta" sparkle:deltaFrom="9" length="189494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RMq76ctjDMpO42BZI8OXZsFoAXGvTa/aLeH7wdRPtkBKN0golo/882mdc8Q/2ckQrTZVy+6NBXX6t6hz5El9AA=="/>
+                <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.3.1/Paste11-8.delta" sparkle:deltaFrom="8" length="193458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3NU9wtjF3MFxVXcLYvvLHIqa65LW11gf+9YS64H4OTK6SIEGPmUjZIHWo5OGLbQfII22VcEp/Oe5Oom+CNe2Cg=="/>
+                <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.3.1/Paste11-7.delta" sparkle:deltaFrom="7" length="223726" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dh2ZnJG6uPwDq0aZpK00i/rtPPF1uvrcdjuLe4wVVNDamKC3kiFKzMqvjsRMthzK0lX30tCOUnSNEmGukL3GCw=="/>
+                <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.3.1/Paste11-6.delta" sparkle:deltaFrom="6" length="224794" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WgR658ErJpL1gmaJTTdkhAwzxxsjgdogOK0s3VoSpQjcYx4yrZkP/8zmHeyuYF5u5PSbDUhoIwtCQiEGuMVYDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.3.0</title>
             <pubDate>Thu, 13 Aug 2026 09:56:17 +0700</pubDate>
             <sparkle:version>10</sparkle:version>
@@ -51,28 +77,6 @@
                 <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste9-8.delta" sparkle:deltaFrom="8" length="114326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KwP4/RiuWj3IXk4khRtcZV2j4oBzdzxi8cpH9AXNhSjXOJGnW7sOL3MR5xZsrNc7QbuiY6IkRqZfDWYEjdm6DQ=="/>
                 <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste9-7.delta" sparkle:deltaFrom="7" length="173438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LzApZGNVIPoqMXHOoZjt0R59aS0B+kOMZtakitxB+GFnw1G3sBwzK/HK7gSfa1WuDGeTRKPIpbzTkTyy+IDuBw=="/>
                 <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste9-6.delta" sparkle:deltaFrom="6" length="169066" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rPOpy5chodRdZ1/im5cpIJLNnNa8e+iZqGIt2f8G0T1KlADMbTNWwiVZKIpHeLZm3pQt1eJHO6uSjpbVUkyhAw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.2.4</title>
-            <pubDate>Thu, 30 Jul 2026 13:55:24 +0700</pubDate>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Paste 1.2.4
-
-- Nhấn `Return` để dán ngay thẻ đang chọn từ Library vào ứng dụng trước đó.
-- Không cướp Enter khi đang nhập tìm kiếm, Pinboard hoặc chỉnh sửa nội dung.
-- Hiển thị và yêu cầu quyền Accessibility rõ ràng cho tính năng **Dán ngay**.
-- Chờ ứng dụng đích active trước khi gửi `⌘V` để thao tác dán ổn định hơn.
-
-Đây là bản dành cho máy Mac Apple Silicon và yêu cầu macOS 14 trở lên.
-]]></description>
-            <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste-1.2.4-arm64.dmg" length="2341126" type="application/octet-stream" sparkle:edSignature="V3/Q4fEwxUuHFgNwzmbiX5SW8YTAYt5Ie7tAR2j2hzkE7ArTtvECJdgqDnPNHLLAN7j0fB8AW3a8Q9mRBx3dCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste8-7.delta" sparkle:deltaFrom="7" length="161822" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="91AXrnqwLj8UDcrG8DhbQ8p2r+/LwK6ovgv9MlwNLqN2OZG4LpzJCwijNHwJPt3yrTTqxUclWZdZxJl537WKAA=="/>
-                <enclosure url="https://github.com/ugotuan/paste-releases/releases/download/v1.2.4/Paste8-6.delta" sparkle:deltaFrom="6" length="169990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p5nwbDGhfLwlHGfwLt3rdYG1dwCx0/pMhF4+H5mFA1JC0dIPiq0SV5bsM/YFjq5O2R6zkgEIGxcS0KVoUjmXCQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

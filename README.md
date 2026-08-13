@@ -6,15 +6,15 @@
   <p><strong>Lưu, tìm và dán lại mọi thứ bạn đã sao chép — nhanh, đẹp và riêng tư.</strong></p>
 
   <p>
-    <a href="https://github.com/ugotuan/paste-releases/releases/download/v1.3.0/Paste-1.3.0-arm64.dmg">
-      <img src="https://img.shields.io/badge/Download-Paste_1.3.0-8B5CF6?style=for-the-badge&logo=apple&logoColor=white" alt="Download Paste 1.3.0">
+    <a href="https://github.com/ugotuan/paste-releases/releases/download/v1.3.1/Paste-1.3.1-arm64.dmg">
+      <img src="https://img.shields.io/badge/Download-Paste_1.3.1-8B5CF6?style=for-the-badge&logo=apple&logoColor=white" alt="Download Paste 1.3.1">
     </a>
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/macOS-14%2B-111827?style=flat-square&logo=apple" alt="macOS 14+">
     <img src="https://img.shields.io/badge/Apple_Silicon-arm64-111827?style=flat-square" alt="Apple Silicon">
-    <img src="https://img.shields.io/badge/Version-1.3.0-7C3AED?style=flat-square" alt="Version 1.3.0">
+    <img src="https://img.shields.io/badge/Version-1.3.1-7C3AED?style=flat-square" alt="Version 1.3.1">
     <img src="https://img.shields.io/badge/Data-Local_first-059669?style=flat-square" alt="Local first">
   </p>
 
@@ -62,7 +62,7 @@ trong vài giây. Toàn bộ lịch sử được mã hóa và lưu trên máy c
 
 ## Bắt đầu nhanh
 
-1. Tải [**Paste 1.3.0 cho Apple Silicon**](https://github.com/ugotuan/paste-releases/releases/download/v1.3.0/Paste-1.3.0-arm64.dmg).
+1. Tải [**Paste 1.3.1 cho Apple Silicon**](https://github.com/ugotuan/paste-releases/releases/download/v1.3.1/Paste-1.3.1-arm64.dmg).
 2. Mở file `.dmg`.
 3. Kéo **Paste.app** vào thư mục **Applications**.
 4. Mở Paste và chọn **Open** nếu macOS hỏi xác nhận.
@@ -197,18 +197,16 @@ mới.
 
 ## 📦 Phiên bản mới nhất
 
-### Paste 1.3.0
+### Paste 1.3.1
 
-- Sửa lỗi copy vùng ô từ Excel bị lưu thành ảnh chụp bảng thay vì nội dung text.
-- Ưu tiên văn bản đọc được: clip chỉ vào loại **Hình ảnh** khi không mang theo text.
-- Copy ảnh nằm trong Mail, Word hay Notes vẫn được nhận đúng là ảnh như trước.
-- Giữ trọn định dạng của nội dung sao chép: HTML, RTF và text đầy đủ được lưu cùng một clip.
-- Dán vào Excel khôi phục lại màu nền ô và bố cục bảng; Word nhận RTF, ô nhập liệu nhận text.
-- Dán rich text không còn bị cắt ở 4.000 ký tự.
-- Nguồn chỉ cung cấp HTML (Google Sheets, một số trang web) nay cũng được xếp vào **Văn bản định dạng**.
+- Sửa **Dán ngay** không hoạt động khi chọn thẻ từ Quick Picker mà chưa mở Thư viện.
+- Kích hoạt tường minh ứng dụng bạn vừa làm việc và chờ nó nhận focus trước khi gửi `⌘V`.
+- Ứng dụng đích là app active gần nhất, nên rời Thư viện rồi quay lại vẫn dán đúng chỗ.
+- Quick Picker không còn ẩn các cửa sổ Paste mà bạn chưa mở.
+- Báo rõ khi ứng dụng đích không nhận được focus thay vì gửi phím vào chỗ vô định.
 
-[Xem ghi chú phát hành](https://github.com/ugotuan/paste-releases/releases/tag/v1.3.0)
-· [Tải DMG](https://github.com/ugotuan/paste-releases/releases/download/v1.3.0/Paste-1.3.0-arm64.dmg)
+[Xem ghi chú phát hành](https://github.com/ugotuan/paste-releases/releases/tag/v1.3.1)
+· [Tải DMG](https://github.com/ugotuan/paste-releases/releases/download/v1.3.1/Paste-1.3.1-arm64.dmg)
 
 ---
 
