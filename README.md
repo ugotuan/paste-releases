@@ -6,15 +6,15 @@
   <p><strong>Lưu, tìm và dán lại mọi thứ bạn đã sao chép — nhanh, đẹp và riêng tư.</strong></p>
 
   <p>
-    <a href="https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste-1.2.5-arm64.dmg">
-      <img src="https://img.shields.io/badge/Download-Paste_1.2.5-8B5CF6?style=for-the-badge&logo=apple&logoColor=white" alt="Download Paste 1.2.5">
+    <a href="https://github.com/ugotuan/paste-releases/releases/download/v1.3.0/Paste-1.3.0-arm64.dmg">
+      <img src="https://img.shields.io/badge/Download-Paste_1.3.0-8B5CF6?style=for-the-badge&logo=apple&logoColor=white" alt="Download Paste 1.3.0">
     </a>
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/macOS-14%2B-111827?style=flat-square&logo=apple" alt="macOS 14+">
     <img src="https://img.shields.io/badge/Apple_Silicon-arm64-111827?style=flat-square" alt="Apple Silicon">
-    <img src="https://img.shields.io/badge/Version-1.2.5-7C3AED?style=flat-square" alt="Version 1.2.5">
+    <img src="https://img.shields.io/badge/Version-1.3.0-7C3AED?style=flat-square" alt="Version 1.3.0">
     <img src="https://img.shields.io/badge/Data-Local_first-059669?style=flat-square" alt="Local first">
   </p>
 
@@ -49,7 +49,8 @@ trong vài giây. Toàn bộ lịch sử được mã hóa và lưu trên máy c
 | **⚡ Quick Picker toàn hệ thống** | Mở Paste từ bất kỳ ứng dụng nào bằng phím tắt tùy chỉnh; tìm, chọn và dán mà không rời công việc đang làm. |
 | **🖼️ Preview ảnh tối ưu** | Xem ảnh trong cửa sổ lớn, zoom, cuộn và sao chép lại; ảnh dài luôn nằm gọn trong thẻ. |
 | **🔎 Tìm kiếm tức thì** | Tìm theo nội dung, ứng dụng nguồn, loại dữ liệu hoặc pinboard; kết quả được lọc ngay khi nhập. |
-| **🧠 Tự động phân loại** | Nhận biết liên kết, mã màu, source code, ảnh, tệp và nội dung thông thường để hiển thị phù hợp. |
+| **🧠 Tự động phân loại** | Nhận biết liên kết, mã màu, source code, ảnh, tệp và nội dung thông thường để hiển thị phù hợp; nội dung có chữ luôn được giữ dạng text thay vì ảnh chụp. |
+| **🎨 Giữ nguyên định dạng** | Bảng tính và rich text được lưu kèm HTML, RTF và text; dán vào Excel giữ lại màu nền ô, dán vào ô nhập liệu ra text sạch. |
 | **✅ Chọn và xóa theo nhóm** | Giữ `⌘` để chọn nhiều thẻ hoặc nhấn `⌘A` để chọn tất cả kết quả đang hiển thị, sau đó xóa một lần có xác nhận. |
 | **⭐ Yêu thích & Pinboard** | Đánh dấu nội dung quan trọng và gom chúng vào các pinboard riêng để truy cập nhanh. |
 | **🪄 Dán ngay** | Chọn một thẻ trong Library rồi nhấn `Return`, hoặc chọn từ Quick Picker, để dán trực tiếp vào ứng dụng trước đó. |
@@ -61,7 +62,7 @@ trong vài giây. Toàn bộ lịch sử được mã hóa và lưu trên máy c
 
 ## Bắt đầu nhanh
 
-1. Tải [**Paste 1.2.5 cho Apple Silicon**](https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste-1.2.5-arm64.dmg).
+1. Tải [**Paste 1.3.0 cho Apple Silicon**](https://github.com/ugotuan/paste-releases/releases/download/v1.3.0/Paste-1.3.0-arm64.dmg).
 2. Mở file `.dmg`.
 3. Kéo **Paste.app** vào thư mục **Applications**.
 4. Mở Paste và chọn **Open** nếu macOS hỏi xác nhận.
@@ -196,16 +197,18 @@ mới.
 
 ## 📦 Phiên bản mới nhất
 
-### Paste 1.2.5
+### Paste 1.3.0
 
-- Sửa mở Paste nhiều lần từ Spotlight tạo hai cửa sổ Library chồng lên nhau.
-- Library luôn tái sử dụng một cửa sổ duy nhất và tự loại bỏ cửa sổ trùng.
-- Nút đỏ đóng đúng cửa sổ đang được bấm, không còn khung Library bị kẹt.
-- Đóng hoàn toàn Quick Picker và preview trước khi chuyển sang Library.
-- Chặn nhiều tiến trình Paste chạy đồng thời.
+- Sửa lỗi copy vùng ô từ Excel bị lưu thành ảnh chụp bảng thay vì nội dung text.
+- Ưu tiên văn bản đọc được: clip chỉ vào loại **Hình ảnh** khi không mang theo text.
+- Copy ảnh nằm trong Mail, Word hay Notes vẫn được nhận đúng là ảnh như trước.
+- Giữ trọn định dạng của nội dung sao chép: HTML, RTF và text đầy đủ được lưu cùng một clip.
+- Dán vào Excel khôi phục lại màu nền ô và bố cục bảng; Word nhận RTF, ô nhập liệu nhận text.
+- Dán rich text không còn bị cắt ở 4.000 ký tự.
+- Nguồn chỉ cung cấp HTML (Google Sheets, một số trang web) nay cũng được xếp vào **Văn bản định dạng**.
 
-[Xem ghi chú phát hành](https://github.com/ugotuan/paste-releases/releases/tag/v1.2.5)
-· [Tải DMG](https://github.com/ugotuan/paste-releases/releases/download/v1.2.5/Paste-1.2.5-arm64.dmg)
+[Xem ghi chú phát hành](https://github.com/ugotuan/paste-releases/releases/tag/v1.3.0)
+· [Tải DMG](https://github.com/ugotuan/paste-releases/releases/download/v1.3.0/Paste-1.3.0-arm64.dmg)
 
 ---
 
